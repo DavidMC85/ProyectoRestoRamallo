@@ -1,0 +1,61 @@
+/*------------mixins-------------*/
+@mixin paddings($der,$izq,$arr,$abjo) {
+    padding-right: $der;
+    padding-left: $izq;
+    padding-top: $arr;
+    padding-bottom: $abjo;
+}
+
+@mixin margins($der,$izq,$arr,$abjo) {
+    margin-right: $der;
+    margin-left: $izq;
+    margin-top: $arr;
+    margin-bottom: $abjo;
+}
+
+
+/*---------------- condiciones ---------------*/
+
+.fondo_condiciones{
+    max-width: 1400px;
+    height:auto;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color:rgba(246, 209, 161, 0.5);
+    padding-bottom: 25px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.condiciones {
+    @include paddings(0px,50px,0px,15px);
+}
+
+.titulo_condiciones {
+    padding-left: 10px;
+}
+
+.subtitulo_condiciones {
+    @include paddings(0,10px,15px,15px );
+}
+.secciones_condiciones {
+    text-decoration: underline;
+}
+#p1 {
+    margin-left: 35px;
+    text-decoration: chocolate;
+    margin-right: 35px;
+}
+#h2c {
+    margin-left: 25px;
+    text-decoration: black;
+}
+#lista {
+    padding-left: 0%;
+}
+.terminos {
+    color: rgb(22, 38, 146);
+    font-family: 'Roboto', sans-serif;
+}

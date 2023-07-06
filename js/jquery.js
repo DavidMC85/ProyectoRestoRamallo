@@ -1,0 +1,26 @@
+$(function() {
+    $("#tooltip-1").tooltip();
+    $("#tooltip-2").tooltip();
+    $("#tooltip-3").tooltip();
+    $("#tooltip-4").tooltip();
+    $("#tooltip-5").tooltip();
+    $("#tooltip-6").tooltip();    
+    $("#tooltip-7").tooltip();
+    $("#tooltip-8").tooltip();
+    $("#tooltip-9").tooltip();
+    $("#tooltip-10").tooltip();
+    $("#tooltip-11").tooltip();
+    $("#tooltip-12").tooltip();
+    $("#tooltip-13").tooltip();
+    $("#tooltip-14").tooltip();
+    $("#tooltip-15").tooltip();
+    $("#tooltip-16").tooltip();
+    $("#tooltip-17").tooltip();
+    $("#tooltip-18").tooltip();
+    $("#tooltip-19").tooltip();
+    $("#tooltip-20").tooltip();
+    $("#tooltip-21").tooltip();
+    $("#tooltip-22").tooltip();
+    $("#tooltip-23").tooltip();
+    $("#tooltip-24").tooltip();
+});

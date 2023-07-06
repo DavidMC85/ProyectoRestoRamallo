@@ -1,0 +1,541 @@
+
+
+/*------------------------BACKGROUND INDEX-------------------------*/
+
+@media only screen and (max-width: 500px) and (min-width: 341px) {
+    .background_home { 
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+/*---------------------------NAVBAR-----------------------------*/
+
+@media only screen and (max-width: 500px) and (min-width: 260px) {
+    #bootstrap_navbar { 
+        background-size: 100% 100%;
+        background-position: center center;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+    }   
+}
+
+@media only screen and (max-width: 800px) and (min-width: 501px) {
+    #bootstrap_navbar { 
+        background-size: 100% 100%;
+        background-position: center center;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 801px) {
+    #bootstrap_navbar { 
+        background-size: 100% 100%;
+        background-position: center center;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        }
+}
+
+/*-----------------------NAVBAR CONTACTO---------------------*/
+
+@media only screen and (max-width: 500px) and (min-width: 341px) {
+    #bootstrap_navbar_contacto {
+        background-image: url(../assets/images/backgorunds/flacha_corta.jpg);
+        background-size: 100% 100%;
+        background-position: center center;
+        background-attachment: scroll;
+    }
+    .wsap_pagina_activa {
+        background-image: none
+    }
+}
+
+
+@media only screen and (max-width: 800px) and (min-width: 501px) {
+    #bootstrap_navbar_contacto {
+        background-image: url(../assets/images/backgorunds/flacha_corta.jpg);
+        background-size: 100% 100%;
+        background-position: center center;
+        background-attachment: scroll;
+        }
+    }
+
+@media only screen and (max-width: 1200px) and (min-width: 801px) {
+    #bootstrap_navbar_contacto {
+        background-image: url(/assets/images/backgorunds/flacha_corta.jpg);
+        background-size: 100% 100%;
+        background-position: center center;
+        background-attachment: scroll;
+        }
+    }
+
+@media only screen and (max-width: 500px) and (min-width: 341px) {
+    .logo-contacto-navbar {
+        max-width: 35px;
+        max-height: 35px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+}
+
+/*----------------------MARCOS INDEX-----------------------*/
+
+@media only screen and (max-width: 500px) and (min-width: 341px) {
+    .marco_interior { 
+        margin: auto;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 1%;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) and (min-width: 341px) {
+    .marco_medio { 
+        margin: auto;
+        border: 2px solid rgb(124, 64, 0);
+        padding: 2%;
+    }
+}
+
+@media only screen and (max-width: 500px) and (min-width: 341px) {
+    .marco_exterior { 
+        margin-left: 1%;
+        margin-right: 1%;
+        padding: 2%;
+        border: 2px solid rgb(255, 134, 4);
+    }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 501px) {
+    .marco_interior { 
+        margin-right: 8px;
+        margin-left: 8px;
+        border: 5px solid rgb(0, 0, 0);
+    }  
+}
+
+@media only screen and (max-width: 980px) and (min-width: 501px) {
+    .marco_medio { 
+        margin-right: 8px;
+        margin-left: 8px;
+        border: 5px solid rgb(124, 64, 0);
+    }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 501px) {
+    .marco_exterior { 
+        margin-right: 8px;
+        margin-left: 8px;
+        margin-bottom: 10px;
+        border: 5px solid rgb(255, 134, 4);
+    }
+}
+
+/*--------------------- TITULO & SUBTITULOS ----------------------*/
+
+@media only screen and (max-width: 500px) and (min-width: 341px) {
+    .titulo_main {
+        font-size:49px;
+        -webkit-text-stroke: 0.8px black;
+
+        margin-top: 20px;
+        margin-right: 5px;
+        
+    }
+}
+
+@media only screen and (max-width: 820px) and (min-width: 501px) {
+    .titulo_main {
+        font-size:85px;
+        margin-top: 20px;
+        margin-right: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 2048px) and (min-width: 821px) {
+    .titulo_main {
+        
+        font-size:135px;
+        margin-top: 20px;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 500px) and (min-width: 341px) {
+    .subtitulo_main {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 820px) and (min-width: 501px) {
+    .subtitulo_main {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 820px) and (min-width: 501px) {
+    .present {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 500px) and (min-width: 341px) {
+    .present {
+        font-size: 20px;
+        color: black;
+        -webkit-text-stroke: .1px white;
+    }
+}
+
+@media only screen and (max-width: 820px) and (min-width: 501px) {  
+    #portada {
+        max-width: 450px;
+        max-height: 400px;
+    }
+}  
+
+@media only screen and (max-width: 820px) and (min-width: 621px) {
+    #portada {
+        max-width: 400px;
+        max-height: 320;
+    }
+
+}  
+
+@media only screen and (max-width: 620px) and (min-width: 501px) { 
+    #portada {
+        max-width: 350px;
+        max-height: 250PX;
+        padding: 0%;
+        margin-top: 20px;
+    }
+    .txt_video{
+        margin-top: 20px;
+    } 
+}  
+
+@media only screen and (max-width: 500px) and (min-width: 341px) {  
+    #portada {
+        max-width: 300px;
+        max-height: 260px;
+        padding: 0%;
+    }
+}  
+
+@media only screen and (max-width: 340px) and (min-width: 5px)  {  
+    #portada {
+        max-width: 300px;
+        max-height: 220;
+        padding: 0%;
+    }
+}
+
+@media only screen and (max-width: 3840px) and (min-width: 821px) {  
+    .video {
+        max-width: 750px;
+        max-height: 620px;
+    }
+}  
+
+@media only screen and (max-width: 820px) and (min-width: 621px) {
+    .video {
+        max-width: 400px;
+        max-height: 320;
+    }
+
+}  
+
+@media only screen and (max-width: 620px) and (min-width: 501px) { 
+    .video {
+        max-width: 350px;
+        height: 280px;
+    }
+}  
+
+@media only screen and (max-width: 500px) and (min-width: 341px) {  
+    .video {
+        max-width: 300px;
+        max-height: 200px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .logo-contacto-navbar{
+        size: 35px;
+    }
+}  
+
+@media only screen and (max-width: 340px) and (min-width: 5px)  {  
+    .viedo {
+        max-width: 300px;
+        max-height: 220;
+    }
+} 
+
+/*---------------------------GALERIA---------------------------*/
+@media only screen and (max-width:1400px) and (min-width:980px){
+    .titulo_galeria {
+        font-size: 200%;
+    }
+}
+@media only screen and (max-width:980px) and (min-width:501px){
+    .titulo_galeria{
+        font-size: 180%;
+    }
+}
+@media only screen and (max-width:501px) and (min-width:240px){
+    .titulo_galeria {
+        font-size: 150%;
+    }    
+}
+
+
+@media only screen and (max-width:1400px) and (min-width:821px) {  
+    .imgimg {
+        max-width: 600px;
+        max-height: 440px;
+        margin: auto;
+    }
+}  
+
+@media only screen and (max-width: 820px) and (min-width: 621px) {
+    .imgimg {
+        display: flex;
+        max-width: 400px;
+        max-height: 310px;
+        align-items: center;
+        margin: auto;
+    }
+    .img_galeria {
+        padding-left: 0px;
+    }
+}  
+
+@media only screen and (max-width: 620px) and (min-width: 501px) { 
+    .imgimg {
+        display: grid;
+        max-width: 370px;
+        max-height: 250px;
+    }
+}  
+
+@media only screen and (max-width: 500px) and (min-width: 260px) {  
+    .imgimg {
+        display: grid;
+        max-width: 340px;
+        max-height: 220px;
+    }
+    .imgimg:hover {
+        transform: none
+    }
+}  
+
+/*--------------------------CARTAS----------------------------*/
+
+@media only screen and (max-width: 1200px) and (min-width: 621px) {
+    .carta_entradas {
+        max-width: 640px;
+        max-height: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        touch-action: auto;
+        border: 12px solid transparent;
+        border-image: linear-gradient(to right, rgb(255, 191, 0),rgb(255, 179, 0), rgb(231, 108, 0),rgb(185, 86, 0), rgb(116, 45, 1), rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0)) 1;
+    }
+
+}  
+
+@media only screen and (max-width: 620px) and (min-width: 501px) { 
+    .carta_entradas {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        max-width: 520px;
+        max-height: auto;
+        border: 8px solid transparent;
+        border-image: linear-gradient(to right, rgb(255, 191, 0),rgb(255, 179, 0), rgb(231, 108, 0),rgb(185, 86, 0), rgb(116, 45, 1), rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0)) 1;
+    }
+}  
+
+@media only screen and (max-width: 500px) and (min-width: 260px) {  
+    .carta_entradas {
+        margin-top: 130px;
+        margin-bottom: 130px;
+        max-width: 330px;
+        max-height:auto ;
+        touch-action: auto;
+        border: 5px solid transparent;
+        border-image: linear-gradient(to right, rgb(255, 191, 0),rgb(255, 179, 0), rgb(231, 108, 0),rgb(185, 86, 0), rgb(116, 45, 1), rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0)) 1;
+    }
+}  
+
+
+/*-------------------------MEDIAS Q DE CARTAS DE POSTRES------------------------*/
+
+
+@media only screen and (max-width: 1200px) and (min-width: 621px) {
+    .carta_postre {
+        max-height: auto;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        touch-action: auto;
+        border: 12px solid transparent;
+        border-image: linear-gradient(to right, rgb(255, 191, 0),rgb(255, 179, 0), rgb(231, 108, 0),rgb(185, 86, 0), rgb(116, 45, 1), rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0)) 1;
+    }
+
+}  
+
+@media only screen and (max-width: 620px) and (min-width: 501px) { 
+    .carta_postre {
+        margin-top: 250px;
+        margin-bottom: 250px;
+        max-width: 480px;
+        max-height: auto;
+        border: 8px solid transparent;
+        border-image: linear-gradient(to right, rgb(255, 191, 0),rgb(255, 179, 0), rgb(231, 108, 0),rgb(185, 86, 0), rgb(116, 45, 1), rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0)) 1;
+    }
+}  
+
+@media only screen and (max-width: 500px) and (min-width: 260px) {  
+    .carta_postre {
+        margin-top: 200px;
+        margin-bottom: 200px;
+        max-width: 330px;
+        max-height:auto ;
+        touch-action: auto;
+        border: 5px solid transparent;
+        border-image: linear-gradient(to right, rgb(255, 191, 0),rgb(255, 179, 0), rgb(231, 108, 0),rgb(185, 86, 0), rgb(116, 45, 1), rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0)) 1;
+    }
+}  
+
+/*-------------------------MEDIAS Q DE CARTAS DE PLATOS PRINCIPALES------------------------*/
+
+@media only screen and (max-width: 1200px) and (min-width: 621px) {
+    .carta_principales {
+        max-width: 620px;
+        max-height: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        touch-action: auto;
+        border: 12px solid transparent;
+        border-image: linear-gradient(to right, rgb(255, 191, 0),rgb(255, 179, 0), rgb(231, 108, 0),rgb(185, 86, 0), rgb(116, 45, 1), rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0)) 1;
+    }
+
+}  
+
+@media only screen and (max-width: 620px) and (min-width: 501px) { 
+    .carta_principales {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        max-width: 500px;
+        max-height: auto;
+        border: 8px solid transparent;
+        border-image: linear-gradient(to right, rgb(255, 191, 0),rgb(255, 179, 0), rgb(231, 108, 0),rgb(185, 86, 0), rgb(116, 45, 1), rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0)) 1;
+
+    }
+}  
+
+@media only screen and (max-width: 500px) and (min-width: 260px) {  
+    .carta_principales {
+        margin-top: 100px;
+        margin-bottom: 160px;
+        max-width: 340px;
+        max-height: auto;
+        touch-action: auto; 
+        border: 5px solid transparent;
+        border-image: linear-gradient(to right, rgb(255, 191, 0),rgb(255, 179, 0), rgb(231, 108, 0),rgb(185, 86, 0), rgb(116, 45, 1), rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0)) 1;
+    }
+}  
+
+/*---------------------------mapa-------------------------------*/
+
+@media only screen and (max-width: 500px) and (min-width: 341px){
+    .map_responsive{
+        position: fixed;
+        width: 300px;
+        height: 260px;
+    }
+}
+
+@media only screen and (max-width: 500px) and (min-width: 341px){
+    iframe{
+        width: 300px;
+        height: 210px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) and (min-width: 341px) {  
+    .texto_condiciones {
+        margin-right: 20px;
+        margin-left: -10px;
+    }
+    #p1 {
+        text-align: justify;
+        margin-right: 0;
+    }
+}  
+
+////////////////////
+
+@media only screen and (max-width: 341px) and (min-width: 200px) {
+    .card-title {
+        font-size: medium;
+    }
+    .card-body {
+        margin: auto;
+        padding: 10px;
+    }
+    .menus {
+        display: grid;
+        margin-top: 65px;
+        margin-bottom: 65px;
+        margin-left: 40px;
+        margin-right: 40px;
+        gap: 3rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 500px) and (min-width: 341px) {
+    .card-title {
+        font-size: x-large;
+    }
+    .menus {
+        display: grid;
+        margin-top: 65px;
+        margin-bottom: 65px;
+        margin-left: 40px;
+        margin-right: 40px;
+        gap: 3rem;
+    }
+}
+
+
+@media only screen and (max-width: 620px) and (min-width: 500px) {
+    .card-title {
+        font-size: x-large;
+    }
+    .menus {
+        display: grid;
+        margin-top: 65px;
+        margin-bottom: 65px;
+        margin-left: 40px;
+        margin-right: 40px;
+        gap: 3rem;
+    }
+}
+
+@media only screen and (max-width: 920px) and (min-width: 620px) {
+    .card-title {
+        font-size: xx-large;
+    }
+    .menus {
+        display: grid;
+        margin-top: 65px;
+        margin-bottom: 65px;
+        margin-left: 40px;
+        margin-right: 40px;
+        gap: 3rem;
+    }
+}

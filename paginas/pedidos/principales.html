@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="Restaurante dedicado a comida gourmet de calidad internacional, ubicado en Ramallo, Argentina">
+        <meta name="keywords"
+            content="cocina, ramallo, restaurante, gourmet, elaborados, cenas, almuerzos, comidas, eventos">
+        <title>Restaurante Ramallo - Pedidos</title>
+        <!-- cdn fawesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- cdn bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <!--linkeo a google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+        <!-- toatify -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+        <!-- link css -->
+        <link rel="stylesheet" href="../../css/carrito.css">
+    </head>
+
+
+    <body class="background_image_home">
+        <header id="bootstrap_navbar">
+    <!-- Navbar de Bootstrap -->
+            <nav class="navbar navbar-expand-xl">
+                <div class="container-fluid">
+                    <a class="logo_navbar" href="../../index.html"><img src="../../assets/images/logo_naranja.png"
+                            style="max-width: 80px;" alt="logo_naranja"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon bg-success-subtle"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../galeria.html">Galeria</a>
+                            </li>
+                            <li class="nav-item dropdown" >
+                                <a class="nav-link dropdown-toggle" id="active"  href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Pedidos Online</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" style="font-size: large;"
+                                            href="./entradas.html">Entradas</a></li>
+                                    <li><a class="dropdown-item" style="font-size: large;"
+                                            href="./principales.html">Principales</a></li>
+                                    <li><a class="dropdown-item" style="font-size: large;"
+                                            href="./postres.html">Postres</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a href="../contacto.html"><img class="logo-contacto-navbar" src="../../assets/images/whatsapp.png" alt="logo_wsap"></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="linea">
+            <section class="carro">
+                <div class="div_carrito">
+                    <img onclick="showCart(this)" class="cart" src="../../assets/images/cart.png" alt="carrito">
+                    <p class="count-product">0</p>
+                </div>
+                <div class="cart-products" id="products-id">
+                    <p class="close-btn" onclick="closeBtn()"><img src="../../assets/images/cerrar.png" alt="cerrar"></p>
+                    <h3>Mi Pedido</h3>
+                    <div class="card-items"></div>
+                    <h2>Total: $<strong class="price-total">0</strong></h2>
+                    <button class="btn_reset" type="reset" id="reset_carrito">Vaciar Pedido</button>
+                    <button class="btn_continuar" type="submit" onclick="">Continuar</button>
+                </div>
+            </section>
+
+    <!-- seccion del menú de comidas -->        
+            <section class="container">
+                <h1 class="tipo_menu">Platos Principales</h1>               
+                <div class="productos">
+                    <div class="carts">
+                        <div>
+                            <img id="tooltip-9" src="../../assets/images/pedidos/principales/sopa.jpg" alt="sopa" title="Deliciosa sopa de jamon cocido con finas hierbas y queso reggiano." >
+                            <p><span>1200</span>$</p>
+                        </div>
+                        <p class="title">Sopa de Jamon Cocido</p>
+                        <a href="" data-id="9" class="btn-add-cart">Agregar al pedido</a>
+                    </div>
+                    <div class="carts">
+                        <div>
+                            <img id="tooltip-10" src="../../assets/images/pedidos/principales/sopa_cubierta.jpg" alt="cubierta" title="Sopa de jamón cubierta con trozos de pan frito, jamon crudo y queso parmesano." >
+                            <p><span>1600</span>$</p>
+                        </div>
+                        <p class="title">Sopa Cubierta</p>
+                        <a href="" class="btn-add-cart" data-id="10">Agregar al pedido</a>
+                    </div>
+                    <div class="carts">
+                        <div>
+                            <img id="tooltip-11" src="../../assets/images/pedidos/principales/bacalao_frito.jpg" alt="bacalao" title="Bacalao fresco frito con hierbas llovidas, con guarnición a elección." >
+                            <p><span>2700</span>$</p>
+                        </div>
+                        <p class="title"> Bacalao Frito</p>
+                        <a href="" data-id="11" class="btn-add-cart">Agregar al pedido</a>
+                    </div>
+                    <div class="carts">
+                        <div>
+                            <img id="tooltip-12" src="../../assets/images/pedidos/principales/cabrito.jpg" alt="cabrito" title="Pieza de cabrito a elección del cliente, asado a las brasas." >
+                            <p><span>3000</span>$</p>
+                        </div>
+                        <p class="title">Cabrito Braseado</p>
+                        <a href="" data-id="12" class="btn-add-cart">Agregar al pedido</a>
+                    </div>
+                    <div class="carts">
+                        <div>
+                            <img id="tooltip-13" src="../../assets/images/pedidos/principales/entrecot.jpg" alt="entrecot" title="Entrecot al asador, con guarnición de papas bravas y ensalada mixta." >
+                            <p><span>2900</span>$</p>
+                        </div>
+                        <p class="title"> Entrecot a las Brasas</p>
+                        <a href="" data-id="13" class="btn-add-cart">Agregar al pedido</a>
+                    </div>
+                    <div class="carts">
+                        <div>
+                            <img id="tooltip-14" src="../../assets/images/pedidos/principales/merluza_romana.jpg" alt="merluza" title="Clasica Merluza a la Romana con guarnición a elección." >
+                            <p><span>2700</span>$</p>
+                        </div>
+                        <p class="title">Merluza a la Romana</p>
+                        <a href="" data-id="14" class="btn-add-cart">Agregar al pedido</a>
+                    </div>
+                    <div class="carts">
+                        <div>
+                            <img id="tooltip-15" src="../../assets/images/pedidos/principales/Solomillo.jpg" alt="solomillo" title="Solomillo de cerdo con salsa de mostaza y guarnición a elección." >
+                            <p><span>2500</span>$</p>
+                        </div>
+                        <p class="title">Solomillo a la Mostaza</p>
+                        <a href="" data-id="15" class="btn-add-cart">Agregar al pedido</a>
+                    </div>
+                    <div class="carts">
+                        <div>
+                            <img id="tooltip-16" src="../../assets/images/pedidos/principales/Sorrentinos.jpg" alt="sorrentinos" title="Sorrentinos con tinta de calamar, rellenos de salmón rosado, salsa a elección." >
+                            <p><span>2300</span>$</p>
+                        </div>
+                        <p class="title">Sorrentinos de Salmón </p>
+                        <a href="" data-id="16" class="btn-add-cart">Agregar al pedido</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            <ul class="footer">
+                <a href="http://www.facebook.com"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                <a href="http://www.instagram.com"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                <a href="http://www.twitter.com"><i class="fa-brands fa-twitter fa-xl"></i></a>
+            </ul>
+            <p class="foottxt2">Imagenes y videos meramente ilustrativos</p>
+            <p class="foottxt">Todos los derechos reservados</p>
+        </footer>
+
+        <script> "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"</script>
+        <script>"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"</script>
+        <script>"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"</script>
+        <script>"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"</script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+        <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <!-- funcion para mostrar el carrito -->    
+        <script>
+            function showCart(img) {
+                var cart = img.parentNode.parentNode.querySelector(".cart-products");
+                cart.style.display = "block";
+            }
+            function closeBtn() {
+                document.getElementById("products-id").style.display = "none";
+            }
+        </script>
+
+        <script src="../../js/jquery.js" ></script>
+        <script src="../../js/carrito.js"></script>
+    </body>
+</html>

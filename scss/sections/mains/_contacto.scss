@@ -1,0 +1,88 @@
+/*------------mixins-------------*/
+@mixin paddings($der,$izq,$arr,$abjo) {
+    padding-right: $der;
+    padding-left: $izq;
+    padding-top: $arr;
+    padding-bottom: $abjo;
+}
+
+@mixin margins($der,$izq,$arr,$abjo) {
+    margin-right: $der;
+    margin-left: $izq;
+    margin-top: $arr;
+    margin-bottom: $abjo;
+}
+
+/*------------CONTACTO--------------*/
+
+.linea_contacto {
+    border-image: linear-gradient(to left, rgb(255, 170, 0), rgb(255, 157, 0), rgb(255, 145, 0), rgb(231, 108, 0), rgb(132, 62, 0), rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0)) 1;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-top: 5px transparent;
+    
+    border-top-style: double;
+}
+
+.h1_contacto {
+    text-align: center;
+    color:black;
+    font-weight: 900;
+    padding-top: 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.h2_contacto {
+    @include paddings(0,0,40px,40px );
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 800;
+    font-family: 'Lucida Sans'
+}
+
+/*------------------formulario--------------------*/
+.formulario-bts {
+    @include paddings(0,0,15px,20px );
+    background-color: rgba(255, 211, 154, 0.546);
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: left;
+}
+
+form {
+    @include paddings(15px,20px,0,0);
+    text-decoration: solid;
+    font-weight: 400;
+}
+
+section {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.map-responsive {
+    display: flex;
+    justify-content: center;
+    overflow:hidden;
+    position:relative;
+    max-height: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.row {
+    margin: auto;
+}
+
+iframe {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin: auto;
+    max-height:380px;
+    max-width:390px;
+}

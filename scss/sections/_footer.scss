@@ -1,0 +1,57 @@
+@mixin tamaño($alto, $ancho) {
+    height: $alto;
+    width: $ancho;
+}
+
+.footer {
+    @include tamaño(30px, 100%);
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    gap: 115px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.foottxt {
+    display: flex;
+    padding-bottom: 0px;
+    justify-content: center;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.foottxt2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 14px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 140, 91);
+}
+
+.ftlinks {
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.485);
+}
+
+@media only screen and (max-width: 500px) and (min-width: 341px){
+    .foottxt2{
+        background-color: rgba(0, 0, 0, 0.437);
+    }
+    .footer{
+        gap: 72px;
+    }
+}

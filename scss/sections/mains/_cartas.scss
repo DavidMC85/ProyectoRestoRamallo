@@ -1,0 +1,197 @@
+/*------------mixins-------------*/
+@mixin paddings($der, $izq, $arr, $abjo) {
+    padding-right: $der;
+    padding-left: $izq;
+    padding-top: $arr;
+    padding-bottom: $abjo;
+}
+
+@mixin margins($der, $izq, $arr, $abjo) {
+    margin-right: $der;
+    margin-left: $izq;
+    margin-top: $arr;
+    margin-bottom: $abjo;
+}
+
+/*----------------------menu de cartas----------------------*/
+
+.fondo_cartas {
+    display: grid;
+    grid-template-columns: auto;
+    grid-column: 2/3;
+    align-content: center;
+}
+
+.img_cartas {
+    @include paddings(0, 0, 25px, 25px);
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+.img_carta_entradas {
+    border: 15px solid transparent;
+    border-image: linear-gradient(
+            to right,
+            rgb(255, 191, 0),
+            rgb(255, 179, 0),
+            rgb(231, 108, 0),
+            rgb(185, 86, 0),
+            rgb(116, 45, 1),
+            rgb(0, 0, 0),
+            rgb(0, 0, 0),
+            rgb(0, 0, 0)
+        )
+        1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img_carta_postre {
+    max-height: 800px;
+    max-width: auto;
+    border: 15px solid transparent;
+    border-image: linear-gradient(
+            to right,
+            rgb(255, 191, 0),
+            rgb(255, 179, 0),
+            rgb(231, 108, 0),
+            rgb(185, 86, 0),
+            rgb(116, 45, 1),
+            rgb(0, 0, 0),
+            rgb(0, 0, 0),
+            rgb(0, 0, 0)
+        )
+        1;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.img_carta_principales {
+    border: 15px solid transparent;
+    border-image: linear-gradient(
+            to right,
+            rgb(255, 191, 0),
+            rgb(255, 179, 0),
+            rgb(231, 108, 0),
+            rgb(185, 86, 0),
+            rgb(116, 45, 1),
+            rgb(0, 0, 0),
+            rgb(0, 0, 0),
+            rgb(0, 0, 0)
+        )
+        1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.lista_entradas {
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 7px solid orange;
+}
+
+
+.lista_entradas, td {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.407);
+    padding: 8px;
+    text-align: left;
+}
+
+.lista_entradas, td:last-child {
+    text-align: right;
+}
+
+.lista_entradas, tr {
+    line-height: 30px;
+    border: 3px solid white;
+}
+
+th {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: rgba(128, 128, 128, 0.407);
+    padding: 8px;
+    text-align: left;
+    max-width: c;
+}
+
+th:last-child {
+    background-color: rgba(128, 128, 128, 0.407);
+}
+
+.precio {
+    text-align: right;
+}
+
+
+//-------------------------------
+
+.menus {
+    display: flex;
+    gap: 2rem;
+    margin-top: 210px;
+    margin-bottom: 210px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#link_principales, #link_entradas, #link_postres  {
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.card {
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: auto;
+    padding: 0;
+    background-color: rgba(66, 65, 65, 0.754);
+}
+
+.card-body {
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: auto;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: xx-large;
+    color: black;
+}
+
+
+
+#recordatorio {
+    color: rgb(255, 255, 255);
+}
+
+
+.link {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;    
+    -webkit-text-stroke: 0.5px black;
+}
+
+
+.texto_menus {
+    margin-top: 55px;
+    background-color: rgba(128, 128, 128, 0.358);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#titulo_pedidos {
+    -webkit-text-stroke: 1.2px black;
+    color: rgb(227, 76, 0);
+    font-weight: bold;
+}

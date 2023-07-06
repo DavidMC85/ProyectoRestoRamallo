@@ -1,0 +1,66 @@
+/*------------mixins-------------*/
+@mixin paddings($der,$izq,$arr,$abjo) {
+    padding-right: $der;
+    padding-left: $izq;
+    padding-top: $arr;
+    padding-bottom: $abjo;
+}
+
+@mixin margins($der,$izq,$arr,$abjo) {
+    margin-right: $der;
+    margin-left: $izq;
+    margin-top: $arr;
+    margin-bottom: $abjo;
+}
+
+/*------------------galeria--------------------*/
+
+.titulo_galeria {
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 20px;
+    font-size: 45px;
+    font-family: Impact;
+    font-weight: 300;
+    background-color:rgba(222, 184, 135, 0.469);
+    max-width: 1650px
+}
+
+.img_galeria {
+    @include paddings(15px ,15px ,50px ,20px);
+    margin: auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,2fr));
+    grid-auto-rows: max-content;
+    overflow: hidden;
+    max-width: 1650px;
+    background-color: rgba(222, 184, 135, 0.469);
+}
+
+/* ----------------Animacion y Transformacion-------------- */
+
+.imgimg {
+    display: grid;
+    width: 450px;
+    height: 270px;
+    max-width: 450px;
+    max-height: 270px;
+    transition: transform .3s ease-in-out;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, rgb(255, 191, 0),rgb(255, 179, 0), rgb(231, 108, 0),rgb(185, 86, 0), rgb(116, 45, 1), rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0)) 1;
+    margin: auto;
+}
+
+.imgimg:hover {
+    transform: scale(1.2);
+}
+
+#active {
+    color: black;
+    text-decoration: underline;
+    font-weight: 600;
+}
